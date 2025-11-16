@@ -32,7 +32,7 @@ requirements.txt # Зависимости
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/ваш-аккаунт/AIBAD.git
+   git clone https://github.com/Elenadewind/AIBAD.git
 Установите зависимости:
 
 bash
@@ -84,7 +84,7 @@ This project:
 ### Setup
 1. Clone the repo:
    ```bash
-   git clone https://github.com/ваш-аккаунт/AIBAD.git
+   git clone https://github.com/Elenadewind/AIBAD.git
 Install dependencies:
 
 bash
