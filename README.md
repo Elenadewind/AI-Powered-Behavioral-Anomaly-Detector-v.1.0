@@ -1,7 +1,14 @@
 # AI-Powered-Behavioral-Anomaly-Detector-v.1.0
+A malware detection system that uses AI to mask code. It analyzes the behaviour of processes rather than static code.
 Система обнаружения вредоносного ПО, использующего ИИ для маскировки кода.   Анализирует *поведение* процессов, а не статический код.
-## Ключевые возможности
+Key capabilities:
+Interception of calls to LLM APIs (Gemini, GPT, etc.).
+Analysis of prompt context for signs of malicious intent.
+Detection of anomalous behaviour (frequent code generations, injections).
+Local «ethical AI» for analysis without data leakage.
+Integration with SIEM/EDR systems.
 
+## Ключевые возможности
 - Перехват вызовов к LLM‑API (Gemini, GPT и др.).
 - Анализ контекста промтов на признаки вредоносных намерений.
 - Обнаружение аномального поведения (частые генерации кода, инъекции).
