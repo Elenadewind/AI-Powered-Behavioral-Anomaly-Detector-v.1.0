@@ -1,0 +1,25 @@
+# Основные настройки AIBAD
+
+# Разрешённые LLM‑API (чёрные списки в отдельном файле)
+api_whitelist:
+  - "https://api.openai.com"
+  - "https://generative.ai/gemini"
+
+# Порог аномалии (0.0–1.0)
+anomaly_threshold: 0.75
+
+# Действия при обнаружении
+response_action: "log"  # Варианты: log/block/quarantine
+
+# Интервал проверки (сек)
+check_interval: 5
+
+# Пути к моделям
+models:
+  behavioral: "../models/behavioral_model.onnx"
+  prompt_analyzer: "../models/local_llm.onnx"
+
+# Логирование
+logging:
+  level: "INFO"
+  file: "../logs/aibad.log"
