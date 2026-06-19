@@ -9,7 +9,7 @@ Contribution Guidelines
 Do not submit real malware samples.
 Report vulnerabilities via GitHub Issues (private if needed).
 Follow responsible disclosure practices.
-
+Make security, safety, think about bug and risks. Make better.
 Setup
 Clone the repository:
 bash
@@ -38,7 +38,7 @@ AIBAD: Детектор поведенческих аномалий на осн�
 *Не содержит реального вредоносного кода или эксплойтов.
 *Не способствует незаконной деятельности.
 *Предназначен только для исследований в области защитной кибербезопасности.
-
+Учитывайте риски и баги. Предлагайте улучшения
 Правила участия в проекте
 Не отправляйте реальные образцы вредоносного ПО.
 Сообщайте об уязвимостях через GitHub Issues (при необходимости — в приватном режиме).
